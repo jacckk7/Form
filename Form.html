@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang = "pt-BR">
+    
+    <head>
+        <title>Cadastro</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" type="text/css" href="./estiloForm.css"/>
+    </head>
+
+    <body>
+        
+        <div>
+            <h2>Cadastro</h2>
+        </div>
+
+        <div>
+
+            <form>
+                <div class = "Identification">
+
+                    <h3>Identificação</h3>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id = "nome" required/>
+
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id = "sobrenome" required/><br><br>
+
+                    <label for="CPF">CPF:</label>
+                    <input type="number" id="CPF" required/>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required/><br><br>
+
+                    <label for="senha">Crie uma senha:</label>
+                    <input type="password" id="senha" required/>
+
+                    <label for="resenha">Repita sua senha:</label>
+                    <input type="password" id="resenha" required/><br><br>
+
+                    <label for="date">Data de nascimento:</label>
+                    <input type="date" id="date" required/>
+
+                    <label for="foto">Envie uma foto sua(opcional):</label>
+                    <input type="file" id="foto" accept=".jpeg, .jpg, .png"/><br><br>
+
+                </div>
+
+                <div class="Addres">
+
+                    <h3>Dados de Endereço</h3>
+
+                    <label for="cep">CEP:</label>
+                    <input type="text" id = "cep" required/>
+
+                    <label for="street">Rua:</label>
+                    <input type="text" id = "street" required/><br><br>
+
+                    <label for="number">Número:</label>
+                    <input type="number" id = "number" max = "99999" min = "1000"/>
+
+                    <label for="neighborhood">Bairro:</label>
+                    <input type="text" id = "neighborhood" required/><br><br>
+
+                    <label for="complement">Complemento:</label>
+                    <input type="text" id = "complement" required/>
+
+                    <label for="city">Cidade:</label>
+                    <input type="text" id = "city" required/><br><br>
+
+                    <label for="State">Estado:</label>
+                    <input list="States" id = "city" required/>
+                    <datalist id="States">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">MATO Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </datalist>
+
+                    <label for="country">País:</label>
+                    <input type="text" id = "country" required/><br><br>
+
+                </div>
+
+                <div class="Contact">
+                
+                    <h3>Dados de Contato</h3>
+
+                    <label for="telephone">Telefone:</label>
+                    <input type="tel" id = "telephone" maxlength="13" minlength="10"/>
+
+                    <label for="celphone">Celular:</label>
+                    <input type="tel" id = "celphone" maxlength="13" minlength="10" required/><br><br>
+                    
+                    <label for="terms">Li e concordo com os <a>termos</a> e <a>condições</a>:</label>
+                    <input type="checkbox" id="terms" required/><br>
+                    <label for="infos">Desejo receber emails com novidades sobre o site:</label>
+                    <input type="checkbox" id="infos" checked="checked"/><br><br>
+
+                    <input type="submit" value="Cadastrar"/>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>

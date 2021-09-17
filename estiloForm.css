@@ -10,93 +10,139 @@ input{
     font-family: "Helvetica", sans-serif;
 }
 
-#Title{
-    height: 132px;
-    position: relative;
-    top: 50px;
-    text-align: center;
-    font-size: 2rem;
+@media only screen and (max-width: 600px){
+    #Title{
+        height: 132px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #Identification{
+        background-color: #413333;
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .id{
+        flex-wrap: wrap;
+    }
+
+    
+    #Addres{
+        background-color: #413333;
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    #Contact{
+        background-color: #413333;
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+    }
 }
 
-#Identification{
-    background-color: #413333;
-    width: 80%;
-    margin-left: 10%;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    height: 21rem;
-    text-align: center;
-}
-
-#cnome{
-    position: absolute;
-    right: 60%;
-    top: 15rem;
-}
-
-#csobrenome{
-    position: absolute;
-    right: 30%;
-    top: 15rem;
-}
-
-#cCPF{
-    position: absolute;
-    right: 60%;
-    top: 19rem;
-}
-
-#cemail{
-    position: absolute;
-    right: 30%;
-    top: 19rem;
-}
-
-#csenha{
-    position: absolute;
-    right: 60%;
-    top: 23rem;
-}
-
-#cresenha{
-    position: absolute;
-    right: 30%;
-    top: 23rem;
-}
-
-#cdate{
-    position: absolute;
-    right: 60%;
-    top: 27rem;
-}
-
-#cfoto{
-    position: absolute;
-    right: 30%;
-    top: 27rem;
-}
-#cfotoi{
-    position: absolute;
-    right: 30%;
-    top: 29rem;
-}
-
-#Addres{
-    background-color: #413333;
-    width: 95%;
-    margin-left: 2.5%;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#Contact{
-    background-color: #413333;
-    width: 95%;
-    margin-left: 2.5%;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    text-align: center;
+@media only screen and (min-width: 1200px){
+    #Title{
+        height: 132px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #Identification{
+        background-color: #413333;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        height: 21rem;
+        text-align: center;
+    }
+    
+    #cnome{
+        position: absolute;
+        right: 60%;
+        top: 15rem;
+    }
+    
+    #csobrenome{
+        position: absolute;
+        right: 30%;
+        top: 15rem;
+    }
+    
+    #cCPF{
+        position: absolute;
+        right: 60%;
+        top: 19rem;
+    }
+    
+    #cemail{
+        position: absolute;
+        right: 30%;
+        top: 19rem;
+    }
+    
+    #csenha{
+        position: absolute;
+        right: 60%;
+        top: 23rem;
+    }
+    
+    #cresenha{
+        position: absolute;
+        right: 30%;
+        top: 23rem;
+    }
+    
+    #cdate{
+        position: absolute;
+        right: 60%;
+        top: 27rem;
+    }
+    
+    #cfoto{
+        position: absolute;
+        right: 30%;
+        top: 27rem;
+    }
+    #cfotoi{
+        position: absolute;
+        right: 30%;
+        top: 29rem;
+    }
+    
+    #Addres{
+        background-color: #413333;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    #Contact{
+        background-color: #413333;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+    }
 }

@@ -1,7 +1,424 @@
+body{
+    background-color: #5c755c
+}
+
 label{
     font-family: "Helvetica", sans-serif;
 }
 
 input{
     font-family: "Helvetica", sans-serif;
+}
+
+#button{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 685px){
+    #Title{
+        height: 132px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #Identification{
+        background-color: #413333;
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .id{
+        flex-wrap: wrap;
+    }
+
+    
+    #Addres{
+        background-color: #413333;
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .add{
+        flex-wrap: wrap;
+    }
+    
+    #Contact{
+        background-color: #413333;
+        width: 95%;
+        margin-left: 2.5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .cont{
+        flex-wrap: wrap;
+    }
+
+    #csubmit{
+        padding: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 685px){
+    #Title{
+        height: 132px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #Identification{
+        background-color: #413333;
+        width: 90%;
+        margin-left: 5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        height: 21rem;
+        text-align: center;
+    }
+    
+    #cnome{
+        position: absolute;
+        right: 50%;
+        top: 15rem;
+    }
+    
+    #csobrenome{
+        position: absolute;
+        right: 10%;
+        top: 15rem;
+    }
+    
+    #cCPF{
+        position: absolute;
+        right: 50%;
+        top: 19rem;
+    }
+    
+    #cemail{
+        position: absolute;
+        right: 10%;
+        top: 19rem;
+    }
+    
+    #csenha{
+        position: absolute;
+        right: 50%;
+        top: 23rem;
+    }
+    
+    #cresenha{
+        position: absolute;
+        right: 10%;
+        top: 23rem;
+    }
+    
+    #cdate{
+        position: absolute;
+        right: 50%;
+        top: 27rem;
+    }
+    
+    #cfoto{
+        position: absolute;
+        right: 10%;
+        top: 27rem;
+    }
+    #cfotoi{
+        position: absolute;
+        right: 10%;
+        top: 29rem;
+    }
+    
+    #Addres{
+        background-color: #413333;
+        width: 90%;
+        margin-left: 5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        height: 19rem;
+    }
+    
+    #ccep{
+        position: absolute;
+        right: 50%;
+        top: 37rem;
+    }
+    
+    #cstreet{
+        position: absolute;
+        right: 10%;
+        top: 37rem;
+    }
+    
+    #cnumber{
+        position: absolute;
+        right: 50%;
+        top: 41rem;
+    }
+    
+    #cneighborhood{
+        position: absolute;
+        right: 10%;
+        top: 41rem;
+    }
+    
+    #ccomplement{
+        position: absolute;
+        right: 50%;
+        top: 45rem;
+    }
+    
+    #ccity{
+        position: absolute;
+        right: 10%;
+        top: 45rem;
+    }
+    
+    #cState{
+        position: absolute;
+        right: 50%;
+        top: 49rem;
+    }
+    
+    #ccountry{
+        position: absolute;
+        right: 10%;
+        top: 49rem;
+    }
+    
+    #Contact{
+        background-color: #413333;
+        width: 90%;
+        margin-left: 5%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+        height: 17rem;
+    }
+
+    #ctelephone{
+        position: absolute;
+        right: 50%;
+        top: 57rem;
+    }
+    
+    #ccelphone{
+        position: absolute;
+        right: 10%;
+        top: 57rem;
+    }
+    
+    #ccheckbox1{
+        position: absolute;
+        left: 30%;
+        top: 61rem;
+    }
+    #ccheckbox2{
+        position: absolute;
+        left: 30%;
+        top: 62rem;
+    }
+    
+    #csubmit{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 10rem;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #Title{
+        height: 132px;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #Identification{
+        background-color: #413333;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        height: 21rem;
+        text-align: center;
+    }
+    
+    #cnome{
+        position: absolute;
+        right: 60%;
+        top: 15rem;
+    }
+    
+    #csobrenome{
+        position: absolute;
+        right: 20%;
+        top: 15rem;
+    }
+    
+    #cCPF{
+        position: absolute;
+        right: 60%;
+        top: 19rem;
+    }
+    
+    #cemail{
+        position: absolute;
+        right: 20%;
+        top: 19rem;
+    }
+    
+    #csenha{
+        position: absolute;
+        right: 60%;
+        top: 23rem;
+    }
+    
+    #cresenha{
+        position: absolute;
+        right: 20%;
+        top: 23rem;
+    }
+    
+    #cdate{
+        position: absolute;
+        right: 60%;
+        top: 27rem;
+    }
+    
+    #cfoto{
+        position: absolute;
+        right: 20%;
+        top: 27rem;
+    }
+    #cfotoi{
+        position: absolute;
+        right: 20%;
+        top: 29rem;
+    }
+    
+    #Addres{
+        background-color: #413333;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        height: 19rem;
+    }
+    
+    #ccep{
+        position: absolute;
+        right: 60%;
+        top: 37rem;
+    }
+    
+    #cstreet{
+        position: absolute;
+        right: 20%;
+        top: 37rem;
+    }
+    
+    #cnumber{
+        position: absolute;
+        right: 60%;
+        top: 41rem;
+    }
+    
+    #cneighborhood{
+        position: absolute;
+        right: 20%;
+        top: 41rem;
+    }
+    
+    #ccomplement{
+        position: absolute;
+        right: 60%;
+        top: 45rem;
+    }
+    
+    #ccity{
+        position: absolute;
+        right: 20%;
+        top: 45rem;
+    }
+    
+    #cState{
+        position: absolute;
+        right: 60%;
+        top: 49rem;
+    }
+    
+    #ccountry{
+        position: absolute;
+        right: 20%;
+        top: 49rem;
+    }
+    
+    #Contact{
+        background-color: #413333;
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        text-align: center;
+        height: 17rem;
+    }
+
+    #ctelephone{
+        position: absolute;
+        right: 60%;
+        top: 57rem;
+    }
+    
+    #ccelphone{
+        position: absolute;
+        right: 20%;
+        top: 57rem;
+    }
+    
+    #ccheckbox1{
+        position: absolute;
+        left: 30%;
+        top: 61rem;
+    }
+    #ccheckbox2{
+        position: absolute;
+        left: 30%;
+        top: 62rem;
+    }
+    
+    #csubmit{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 10rem;
+        padding: 5px;
+    }
 }

@@ -14,45 +14,64 @@
     <body>
         
         <div>
-            <h2>Cadastro</h2>
+            <h1 id = "Title">Cadastro</h1>
         </div>
 
         <div>
 
             <form>
-                <div class = "Identification">
+                <div id = "Identification">
 
-                    <h3>Identificação</h3>
+                    <h2>Identificação</h2>
 
-                    <label for="nome">Nome:</label>
-                    <input type="text" id = "nome" required/>
+                    <div id = "cnome">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id = "nome" required/>
+                    </div>
 
-                    <label for="sobrenome">Sobrenome:</label>
-                    <input type="text" id = "sobrenome" required/><br><br>
+                    <div id="csobrenome">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" id = "sobrenome" required/><br><br>
+                    </div>
 
-                    <label for="CPF">CPF:</label>
-                    <input type="number" id="CPF" required/>
+                    <div id = "cCPF">
+                        <label for="CPF">CPF:</label>
+                        <input type="number" id="CPF" required/>
+                    </div>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required/><br><br>
+                    <div id = "cemail">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required/><br><br>
+                    </div>
 
-                    <label for="senha">Crie uma senha:</label>
-                    <input type="password" id="senha" required/>
+                    <div id = "csenha">
+                        <label for="senha">Crie uma senha:</label>
+                        <input type="password" id="senha" required/>
+                    </div>
 
-                    <label for="resenha">Repita sua senha:</label>
-                    <input type="password" id="resenha" required/><br><br>
+                    <div id = "cresenha">
+                        <label for="resenha">Repita sua senha:</label>
+                        <input type="password" id="resenha" required/><br><br>
+                    </div>
 
-                    <label for="date">Data de nascimento:</label>
-                    <input type="date" id="date" required/>
+                    <div id = "cdate">
+                        <label for="date">Data de nascimento:</label>
+                        <input type="date" id="date" required/>
+                    </div>
 
-                    <label for="foto">Envie uma foto sua(opcional):</label>
-                    <input type="file" id="foto" accept=".jpeg, .jpg, .png"/><br><br>
+                    <div id = "cfoto">
+                        <label for="foto">Envie uma foto sua(opcional):</label>
+                    </div>
+
+                    <div id = "cfotoi">
+                        <input type="file" id="foto" accept=".jpeg, .jpg, .png"/><br><br>
+                    </div>
 
                 </div>
 
-                <div class="Addres">
+                <div id = "Addres">
 
-                    <h3>Dados de Endereço</h3>
+                    <h2>Dados de Endereço</h2>
 
                     <label for="cep">CEP:</label>
                     <input type="text" id = "cep" required/>
@@ -109,9 +128,9 @@
 
                 </div>
 
-                <div class="Contact">
+                <div id = "Contact">
                 
-                    <h3>Dados de Contato</h3>
+                    <h2>Dados de Contato</h2>
 
                     <label for="telephone">Telefone:</label>
                     <input type="tel" id = "telephone" maxlength="13" minlength="10"/>
